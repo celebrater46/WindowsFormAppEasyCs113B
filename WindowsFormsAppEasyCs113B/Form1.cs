@@ -40,7 +40,7 @@ namespace WindowsFormsAppEasyCs113B
             tb.Parent = this;
             bt.Parent = this;
 
-            bt.Click += new EventHandler(BtClick);
+            bt.Click += new EventHandler(BtClick); 
         }
 
         public void BtClick(Object sender, EventArgs e)
